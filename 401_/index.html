@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Location Finder</h2>
+            <input type="text" id="locationInput" placeholder="Enter a location..." />
+            <div class="buttons">
+                <button id="addLocationButton">Add Location</button>
+                <button id="clearLocationsButton">Clear Locations</button>
+            </div>
+            <ul id="locationsList"></ul>
+        </header>
+        <section id="mapContainer">
+            <div id="map"></div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header (search section) */
+header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#locationInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#locationsList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#locationsList li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Map container section */
+#mapContainer {
+    height: 500px; /* Increased map height */
+    margin-top: 10px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
